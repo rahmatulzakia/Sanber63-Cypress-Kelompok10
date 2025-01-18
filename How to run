@@ -1,0 +1,5 @@
+Step how to run cypress
+
+1. npm install
+2. npx cypress run (untuk run semua test case)
+3. npx cypress run --spec cypress/e2e/integration/register.cy.js (command untuk jalankan register only)
