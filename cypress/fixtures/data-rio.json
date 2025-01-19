@@ -1,0 +1,136 @@
+{
+  "validUser": {
+    "email": "rio@vomoto.com",
+    "password": "Testing123"
+  },
+  "inputs": [
+    {
+      "title": "Fill valid new address",
+      "input": {
+        "firstname": "Rio",
+        "lastname": "Ramadhan",
+        "company": "test comp",
+        "street1": "Jl. Contoh No. 123",
+        "street2": "Komplek Alam Raya",
+        "street3": "Blok A",
+        "city": "Dothan",
+        "state": "Alabama",
+        "postcode": "35004",
+        "country": "United States",
+        "phone": "08123456789"
+      }
+    },
+    {
+      "title": "Submit with empty first name",
+      "input": {
+        "firstname": " ",
+        "lastname": "Ramadhan",
+        "company": "test comp",
+        "street1": "Jl. Contoh No. 123",
+        "street2": "Komplek Alam Raya",
+        "street3": "Blok A",
+        "city": "Dothan",
+        "state": "Alabama",
+        "postcode": "35004",
+        "country": "United States",
+        "phone": "08123456789"
+      }
+    },
+    {
+      "title": "Submit with empty last name",
+      "input": {
+        "firstname": "Rio",
+        "lastname": "",
+        "company": "test comp",
+        "street1": "Jl. Contoh No. 123",
+        "street2": "Komplek Alam Raya",
+        "street3": "Blok A",
+        "city": "Dothan",
+        "state": "Alabama",
+        "postcode": "35004",
+        "country": "United States",
+        "phone": "08123456789"
+      }
+    },
+    {
+      "title": "Submit with invalid postcode",
+      "input": {
+        "firstname": "Rio",
+        "lastname": "Ramadhan",
+        "company": "test comp",
+        "street1": "Jl. Contoh No. 123",
+        "street2": "Komplek Alam Raya",
+        "street3": "Blok A",
+        "city": "Dothan",
+        "state": "Alabama",
+        "postcode": "abcd",
+        "country": "United States",
+        "phone": "08123456789"
+      }
+    },
+    {
+      "title": "Submit with invalid phone number",
+      "input": {
+        "firstname": "Rio",
+        "lastname": "Ramadhan",
+        "company": "test comp",
+        "street1": "Jl. Contoh No. 123",
+        "street2": "Komplek Alam Raya",
+        "street3": "Blok A",
+        "city": "Dothan",
+        "state": "Alabama",
+        "postcode": "35004",
+        "country": "United States",
+        "phone": "abcd123"
+      }
+    },
+    {
+      "title": "Submit without selecting country",
+      "input": {
+        "firstname": "Rio",
+        "lastname": "Ramadhan",
+        "company": "test comp",
+        "street1": "Jl. Contoh No. 123",
+        "street2": "Komplek Alam Raya",
+        "street3": "Blok A",
+        "city": "Dothan",
+        "state": "Alabama",
+        "postcode": "35004",
+        "country": "",
+        "phone": "08123456789"
+      }
+    },
+    {
+      "title": "Submit with empty street address",
+      "input": {
+        "firstname": "Rio",
+        "lastname": "Ramadhan",
+        "company": "test comp",
+        "street1": "",
+        "street2": "",
+        "street3": "",
+        "city": "Dothan",
+        "state": "Alabama",
+        "postcode": "35004",
+        "country": "United States",
+        "phone": "08123456789"
+      }
+    },
+    {
+      "title": "Submit with all fields empty",
+      "input": {
+        "firstname": "",
+        "lastname": "",
+        "company": "",
+        "street1": "",
+        "street2": "",
+        "street3": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "country": "",
+        "phone": ""
+      }
+    }
+  ]
+}
