@@ -221,4 +221,5 @@ describe('choose product - with login', () => {
     cy.get('.towishlist').click();
    // cy.visit(wishlistURL);
     });
+
 });
