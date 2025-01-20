@@ -21,7 +21,7 @@ Checkout: Multi-address checkout, wishlist management, and order summaries.
 - Change Password
 - Edit Address Book
 - Set Default Shipping Address
-2. Choose Products (Rahmatul Zakia (rahmatulzakia), Salsabila Lattifa Fikri (salsabilalattifa))
+2. Choose Products (Rahmatul Zakia (rahmatulzakia))
 - Select Size and Color
 - Add Products to Cart
 - Add Products to Wishlist
@@ -34,6 +34,9 @@ Checkout: Multi-address checkout, wishlist management, and order summaries.
 - Move Items to Wishlist
 - View Summary (Country, State, ZIP)
 - Checkout with Multiple Addresses
-5. Optional Features
-Review Product: Submit nickname, summary, and review for products.
+5.  Product Reviews (Salsabila Lattifa Fikri (salsabilalattifa))
+- Submit nickname, summary, and review for products
+- Check hyperlink Reviews from home page
+- Check hyperlink Reviews and Add Your Review from product detail page
+- Check added review
 
