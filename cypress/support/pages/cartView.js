@@ -1,4 +1,4 @@
-class CartPage {
+class cartView {
   openCart() {
     cy.get('.showcart').click();
   }
@@ -47,4 +47,4 @@ class CartPage {
   }
 }
 
-export default new CartPage();
+export default new cartView();

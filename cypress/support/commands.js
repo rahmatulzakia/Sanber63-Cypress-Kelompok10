@@ -24,21 +24,21 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-import productPage from '../support/pages/productPage';
+import productView from '../support/pages/productView';
 class customCommand{}
 
 Cypress.Commands.add('addItemToCart', () => {
   cy.visit('/');
   
   // Menambahkan produk pertama
-  productPage.selectFirstProduct();
-  productPage.addItemToCart(166, 56, 4);
+  productView.selectFirstProduct();
+  productView.addItemToCart(166, 56, 4);
 
   cy.visit('/');
   
   // Menambahkan produk kedua
-  productPage.selectSecondProduct();
-  productPage.addItemToCart(166, 52, 5);
+  productView.selectSecondProduct();
+  productView.addItemToCart(166, 52, 5);
 });
 
 

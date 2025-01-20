@@ -1,4 +1,4 @@
-class WishlistPage {
+class wishlistScreen {
     moveToWishlist() {
       cy.get('.towishlist').click();
     }
@@ -10,5 +10,5 @@ class WishlistPage {
     }
   }
   
-  export default new WishlistPage();
+  export default new wishlistScreen();
   

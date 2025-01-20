@@ -1,4 +1,4 @@
-class ProductPage {
+class productView {
     selectFirstProduct() {
       cy.get(':nth-child(1) > .product-item-info').click();
     }
@@ -32,5 +32,5 @@ class ProductPage {
     }
   }
   
-  export default new ProductPage();
+  export default new productView();
   

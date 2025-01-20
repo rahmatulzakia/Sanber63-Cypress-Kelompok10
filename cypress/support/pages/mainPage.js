@@ -1,4 +1,4 @@
-class HomePage {
+class mainPage {
   visit() {
     cy.visit('/');
   }
@@ -8,4 +8,4 @@ class HomePage {
   }
 }
 
-export default new HomePage();
+export default new mainPage();

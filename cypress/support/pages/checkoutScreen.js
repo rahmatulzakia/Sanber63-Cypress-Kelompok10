@@ -1,12 +1,12 @@
-class CheckoutPage {
+class checkoutScreen {
     proceedToCheckout() {
       cy.get('.checkout-methods-items > :nth-child(1) > .action').click();
     }
   
-    verifyCheckoutPage() {
+    verifycheckoutScreen() {
       cy.url().should('include', 'checkout/#shipping');
     }
   }
   
-  export default new CheckoutPage();
+  export default new checkoutScreen();
   

@@ -1,4 +1,4 @@
-class LoginPage {
+class authPage {
     visit() {
       cy.visit('https://magento.softwaretestingboard.com/customer/account/login/');
     }
@@ -24,5 +24,5 @@ class LoginPage {
     }
   }
   
-  export default new LoginPage();
+  export default new authPage();
   
