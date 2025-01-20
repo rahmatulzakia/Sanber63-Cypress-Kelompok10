@@ -40,3 +40,4 @@ Checkout: Multi-address checkout, wishlist management, and order summaries.
 - Check hyperlink Reviews and Add Your Review from product detail page
 - Check added review
 
+Link test scenario : https://drive.google.com/drive/folders/1FpFeGSPXQWwR67XDmI1HE16XTJYD4WMp
