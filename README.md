@@ -1,18 +1,39 @@
 # Sanber63-Cypress-Kelompok10
-Nama anggota kelompok aktif dan nama github nya:
+# Cypress E-Commerce Test Automation Suite
 
-1. Rio Ramadhan - towel423
+This repository contains an automated test suite using Cypress to test various e-commerce functionalities for a shopping website. The project is divided into different feature areas, with each feature tested by different team members.
 
-2. Putri cathliniya Diyanti Faliha - chatliniya
+## Overview
 
-3. Lulu Kharis - lulukharis
+The test suite is designed to ensure the platform’s shopping cart, account management, and checkout processes work as expected.
 
-4. Salsabila Lattifa Fikri - salsabilalattifa
+Key features tested include:
 
-5. Nana Casmana Ade Wikarta - nanaacaw
+Account Management: Update profile, password, and shipping information.
+Product Selection: Choose size, color, and add items to the cart or wishlist.
+Cart Management: Update cart quantities, delete items, and view product details.
+Checkout: Multi-address checkout, wishlist management, and order summaries.
 
-6. Adam Firdaus - adamfiirds
+## Features and Team Responsibilities
+1. Login & Registrasi (Putri Cathliniya Diyanti (chatliniya))
+1. My Account (Lulu Kharis (lulukharis))
+- Edit Account (Contact Information)
+- Change Password
+- Edit Address Book
+- Set Default Shipping Address
+2. Choose Products (Rahmatul Zakia (rahmatulzakia), Salsabila Lattifa Fikri (salsabilalattifa))
+- Select Size and Color
+- Add Products to Cart
+- Add Products to Wishlist
+3. Update Shopping Cart (Nana Casmana A.W (nanaacaw))
+- Edit Cart (Increase or Decrease Product Quantity)
+- Delete Product
+- View Product Details
+4.  Proceed to Checkout (Rio Ramadhan (towel423), Adam Firdaus (adamfiirds))
+- Update Cart (Add or Remove Products)
+- Move Items to Wishlist
+- View Summary (Country, State, ZIP)
+- Checkout with Multiple Addresses
+5. Optional Features
+Review Product: Submit nickname, summary, and review for products.
 
-7. Rahmatul Zakia - rahmatulzakia
-
-Pembagian tugas (siapa mengerjakan apa)
