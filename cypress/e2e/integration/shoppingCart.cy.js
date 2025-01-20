@@ -1,12 +1,13 @@
 import customCommand from '../../support/commands';
-import authPage from '../../support/pages/authPage';
-import mainPage from '../../support/pages/mainPage';
-import productView from '../../support/pages/productView';
-import cartView from '../../support/pages/cartView';
-import wishlistScreen from '../../support/pages/wishlistScreen';
-import checkoutScreen from '../../support/pages/checkoutScreen';
+import authPage from '../../support/pageShopping/authPage';
+import mainPage from '../../support/pageShopping/mainPage';
+import productView from '../../support/pageShopping/productView';
+import cartView from '../../support/pageShopping/cartView';
+import wishlistScreen from '../../support/pageShopping/wishlistScreen';
+import checkoutScreen from '../../support/pageShopping/checkoutScreen';
 
 // ---------------------------------------------------------------------------------
+
 describe('TS001-Testing Shopping Cart', () => {
 
   it('TC001-Gagal saat menampilkan cart saat cart tidak ada item', () => {
@@ -18,6 +19,7 @@ describe('TS001-Testing Shopping Cart', () => {
 });
 
 // ---------------------------------------------------------------------------------
+
 describe('TS002-Menampilkan shopping cart saat terdapat item di dalamnya', () => {
 
 
@@ -35,6 +37,7 @@ describe('TS002-Menampilkan shopping cart saat terdapat item di dalamnya', () =>
 });
 
 // ---------------------------------------------------------------------------------
+
 describe('TS003-Mengedit item di dalam cart', () => {
   beforeEach(() => {
     cy.addItemToCart();
@@ -64,6 +67,7 @@ describe('TS003-Mengedit item di dalam cart', () => {
 });
 
 // ---------------------------------------------------------------------------------
+
 describe('TS004-Menghapus item dari cart', () => {
   beforeEach(() => {
     cy.addItemToCart();
@@ -79,6 +83,7 @@ describe('TS004-Menghapus item dari cart', () => {
 });
 
 // ---------------------------------------------------------------------------------
+
 describe('TS005-Mengedit item dengan klik tombol edit', () => {
   beforeEach(() => {
     cy.addItemToCart();
@@ -94,6 +99,7 @@ describe('TS005-Mengedit item dengan klik tombol edit', () => {
 });
 
 // ---------------------------------------------------------------------------------
+
 describe('TS006-Move to Wishlist', () => {
   it('TC008-Berhasil memindahkan barang ke wishlist', () => {
     authPage.login('samanta.manta@guysmail.com', 'Samanta*10');
@@ -107,6 +113,7 @@ describe('TS006-Move to Wishlist', () => {
 });
 
 // ---------------------------------------------------------------------------------
+
 describe('TS006-Melakukan Checkout', () => {
   it('TC009-Berhasil melakukan checkout', () => {
     authPage.login('samanta.manta@guysmail.com', 'Samanta*10');

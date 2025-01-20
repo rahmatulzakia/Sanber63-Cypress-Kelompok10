@@ -24,7 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-import productView from '../support/pages/productView';
+import productView from '../support/pageShopping/productView';
 class customCommand{}
 
 Cypress.Commands.add('addItemToCart', () => {
