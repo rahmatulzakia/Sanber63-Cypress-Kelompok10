@@ -5,7 +5,7 @@ module.exports = defineConfig({
   e2e: {
     baseUrl: 'https://magento.softwaretestingboard.com', // Base URL untuk semua tes
     defaultCommandTimeout: 8000, // Waktu tunggu default untuk perintah
-    pageLoadTimeout: 10000, // Waktu tunggu untuk memuat halaman
+    pageLoadTimeout: 30000, // Waktu tunggu untuk memuat halaman
     retries: {
       runMode: 2, // Ulangi 2 kali jika gagal saat `cypress run`
       openMode: 0, // Tidak ada pengulangan jika gagal saat `cypress open`
