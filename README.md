@@ -15,7 +15,7 @@ Cart Management: Update cart quantities, delete items, and view product details.
 Checkout: Multi-address checkout, wishlist management, and order summaries.
 
 ## Features and Team Responsibilities
-1. Login & Registrasi (Putri Cathliniya Diyanti (chatliniya))
+1. Login & Registrasi (Putri Cathliniya Diyanti (cathliniya))
 1. My Account (Lulu Kharis (lulukharis))
 - Edit Account (Contact Information)
 - Change Password
