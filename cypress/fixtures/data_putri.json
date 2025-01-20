@@ -1,0 +1,8 @@
+{
+  "inputLogin" : {
+      "email": "user2@spicysoda.com",
+      "password": "Userme0987",
+      "firstName": "second",
+      "lastName": "user"
+  }
+}
