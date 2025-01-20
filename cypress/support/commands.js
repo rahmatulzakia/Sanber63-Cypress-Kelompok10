@@ -23,3 +23,31 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+import productView from '../support/pageShopping/productView';
+class customCommand{}
+
+Cypress.Commands.add('addItemToCart', () => {
+  cy.visit('/');
+  
+  // Menambahkan produk pertama
+  productView.selectFirstProduct();
+  productView.addItemToCart(166, 56, 4);
+
+  cy.visit('/');
+  
+  // Menambahkan produk kedua
+  productView.selectSecondProduct();
+  productView.addItemToCart(166, 52, 5);
+});
+
+
+Cypress.Commands.add('login', (email, password) => {
+  cy.visit('https://magento.softwaretestingboard.com/customer/account/login/');
+  cy.get('#email').type(email);
+  cy.get('#pass').type(password);
+  cy.get('#send2').click();
+  cy.wait(2000);
+});
+
+  export default new customCommand()
